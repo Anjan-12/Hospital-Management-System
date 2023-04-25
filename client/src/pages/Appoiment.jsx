@@ -2,7 +2,6 @@ import Layout from "../pages/Layout";
 import React, { useState } from "react";
 import "../styles/Appointment.css";
 import Khalti from "../pages/Khalti"; // import your Khalti component
-import Esewa from "../pages/Esewa"; // import your Khalti component
 
 
 import Cookies from "js-cookie";
@@ -171,7 +170,6 @@ const Appoiment = () => {
               <option value="Khalti">Khalti</option>
             </select>
             {paymentMethod === "Khalti" && <Khalti />}
-            {paymentMethod === "Esewa" && <Esewa />}
 
           </div>
 
